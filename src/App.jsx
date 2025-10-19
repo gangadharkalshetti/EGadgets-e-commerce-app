@@ -1,9 +1,22 @@
-import React from 'react'
+import React from "react";
+import { assets } from "./assets/assets.js";
 
-function App() {
+function Home() {
   return (
-    <div className='font-bold bg-amber-500'>App</div>
-  )
+    <div style={{ padding: "20px" }}>
+      <img
+        src={assets.BannerImg}
+        alt="Banner"
+        style={{
+          width: "100%",
+          borderRadius: "10px",
+          boxShadow: "0 4px 10px rgba(0,0,0,0.2)",
+        }}
+      />
+    </div>
+  );
 }
 
-export default App
+export default Home;
+
+
