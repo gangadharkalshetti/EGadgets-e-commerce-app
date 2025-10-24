@@ -2,7 +2,7 @@ import React from 'react'
 
 function Ptoduct() {
   return (
-    <div>Ptoduct</div>
+    <div>Product</div>
   )
 }
 
