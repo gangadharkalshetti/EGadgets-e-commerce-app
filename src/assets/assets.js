@@ -1,9 +1,3 @@
-//Icons
-import CartImg from "./cart_icon.png"
-import SearchIcon from "./search-icon.png"
-import LoginIcon from './login-icon.png'
-
-
 //Banner
 import BannerImg from "./Banner_img.jpg"
 
