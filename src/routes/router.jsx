@@ -7,7 +7,7 @@ import {
 import Layout from "../Layout.jsx";
 // import ProtectedRoute from "./ProtectedRoute.jsx";
 import { lazy } from "react";
-import Wishlist from '../pages/Wishlist.jsx';
+
 
 const Home = lazy(() => import("../pages/Home.jsx"))
 const About = lazy(() => import("../pages/About.jsx"))
@@ -20,7 +20,7 @@ const Orders = lazy(() => import("../pages/Orders.jsx"))
 const PlaceOrder = lazy(() => import("../pages/PlaceOrder.jsx"))
 const Product = lazy(() => import("../pages/Product.jsx"))
 const Profile = lazy(() => import("../pages/Profile.jsx"))
-const Wisglist = lazy(() => import("../pages/Wishlist.jsx"))
+const Wishlist = lazy(() => import("../pages/Wishlist.jsx"))
 
 
 
